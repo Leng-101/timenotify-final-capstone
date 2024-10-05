@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+
+    .upper, .third, .fifth{
+        background-image: linear-gradient(to right,#0a64cb,#a502a0);
+    
+    }
+    .left{
+        height: 100vh;
+        }
+    .innerleft{
+        height:90%;
+        width:90%;
+        padding-top: 10%;
+        padding-left:10%;
+        
+        text-shadow: 1px 2px #14426f;
+    }
+    h2{
+        font-size: 200%;
+        padding-top: 4%;
+        color:#004ea8;
+    }
+
+    h1{
+        font-size: 550%;
+        color: white;
+        max-width:90%;
+        letter-spacing: 2px;
+        text-shadow: 1px 2px #14426f;
+        padding-top: 2%;
+
+    }
+    h3{
+        padding-top: 2%;
+        font-size: 150%;
+        color: white;
+    }
+    .left-down-display
+    {
+        padding-top: 10%; 
+    }
+    .smart
+    {
+        padding-top: 5%;
+        font-weight: bold;
+        font-size:90%;
+    }
+    .for_icon{
+        text-indent: 4%;
+    }
+    .copyright{
+        font-size:70%;
+        font-weight: lighter;
+        color: white;
+    }
+    p{
+        
+        color:#004ea8;
+        font-size: 100%;
+        color: white;
+    }
+    .icon{
+        max-width:190%;
+        height:auto;
+        padding-bottom: 2%;
+    }
+    .right{
+        background-image: url("assets/right_bg.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-color:  transparent;
+        padding:4%;
+    }
+    .right_inner{
+        background-color: white;
+        margin:auto;
+        padding: 2% 0% 1.5% 2%;
+        border-radius: 7px;
+        box-shadow:  5px 10px #a5988a62 ;
+    }
+    .logo{
+        margin-top: 3%;
+        width:55%;
+    }
+    .student_button, .student_time_button, .student_guardian_button{
+        width: 80%;
+        height:10%;
+        padding:2%;
+        border-color: black;
+        background-color:white;
+        margin-bottom:8px;
+        font-weight: bold;
+        
+        border-radius: 6px;
+
+    }
+
+    .gen_button{
+        width: 80%;
+        height:10%;
+        padding:2%;
+        margin-bottom:8px;
+        
+        border-radius: 6px;background-image:linear-gradient(to right,#0a64cb,#a502a0);
+        border-color: none;
+        color:white;
+    }
+    .a1{
+        text-decoration: none;
+        color:white;
+        font-weight: bold;
+        font-size: 100%;
+    }
+    /*.student_time_button, .student_guardian_button{
+        background-color: rgb(232, 232, 255)
+     }*/
+
+    a{
+        text-decoration: none;
+        color:#9d45ad;
+        font-weight: bold;
+        font-size: 100%;
+    }
+
+    a:hover, .student_button:hover, .student_time_button:hover, .student_guardian_button:hover{
+    color: white;
+    background-color:#9d45ad;
+    border-color: #9d45ad;
+    background-image: url('assets/right_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    .carocont{
+        background-color: white;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .caro{
+        width: 100%;
+        display: flex;
+    }
+
+    .iconscont{
+        background-color:#004ea8;
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        height:20%;
+    }
+
+    .icon2{
+        width:100px;
+        height:90px;
+        padding-bottom: 2%;
+        padding-top: 5%;
+        margin: auto;
+    }
+
+    .label{
+       padding-bottom:30px;
+       padding-top: -10px;
+    }
+    .label1{
+        padding-top:15px;
+     }
+    
+
+    .footer{
+        background-color: #004ea8;
+        color:white;
+        text-align: end;
+        padding-top: 1%;
+    }
+.imggirl{
+    height: 200px;
+    width: auto;
+}
+
+.picture{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.picturecont{
+    padding:10px;
+}
+.name{
+    color: #14426f;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+
+    .dev{
+        color: #14426f;
+        text-align: left;
+        font-weight: bold;
+        padding-top: 30px;
+    
+    }

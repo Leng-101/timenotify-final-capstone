@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    .left{
+        height: 100vh;
+        background-color: #dae0f3;
+    }
+    .innerleft{
+        height:90%;
+        width:90%;
+        padding-top: 10%;
+        padding-left:10%;
+        
+        text-shadow: 1px 2px #dae0f3;
+    }
+    h2{
+        font-size: 200%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        color: #004ea8;
+        font-weight: bold;
+    }
+
+    h1{
+        font-size: 550%;
+        color: #004ea8;
+        width:90%;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        text-shadow: 1px 2px #dae0f3;
+        font-weight: bold;
+    }
+    h3{
+        padding-top: 2%;
+        font-size: 150%;
+        color: #004ea8;
+    }
+    .left-down-display
+    {
+        padding-top: 10%; 
+    }
+    .smart
+    {
+        padding-top: 5%;
+        font-weight: bold;
+        font-size:90%;
+    }
+    .for_icon{
+        text-indent: 4%;
+    }
+    .copyright{
+        font-size:70%;
+        font-weight: lighter;
+        color:#004ea8;
+    }
+    p{
+        
+        color:#dae0f3;
+        font-size: 100%;
+        color: #004ea8;
+    }
+    .icon{
+        width:170%;
+        height:90%;
+        padding-bottom: 2%;
+    }
+    .right{
+        background-image: url("assets/right_bg.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-color: #dae0f3;
+        padding:5%;
+    }
+    .right_inner{
+        background-color: white;
+        margin:auto;
+        padding: 2% 2% 1.5% 2%;
+        border-radius: 7px;
+        box-shadow:  4px 8px 3px #90a6f0;
+    }
+    .logo{
+        margin-top: 4%;
+        width:50%;
+    }
+    .student_button, .student_time_button, .student_guardian_button{
+        width: 80%;
+        height:10%;
+        padding:2%;
+        border-color: black;
+        background-color:white;
+    }
+    /*.student_time_button, .student_guardian_button{
+        background-color: rgb(232, 232, 255)
+     }*/
+
+    a{
+        text-decoration: none;
+        color:#DA291C;
+        font-weight: bold;
+        font-size: 100%;
+    }
+
+    a:hover, .student_button:hover, .student_time_button:hover, .student_guardian_button:hover{
+    color: white;
+    background-color:#DA291C;
+    border-color: #DA291C;
+    background-image: url('assets/right_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }

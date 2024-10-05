@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .cont{
+        background-color: #f0f0f0e9;
+        width:100%;
+        height:100vh;
+        align-items: center;
+        padding-top:25px;
+        padding-bottom:20px;
+        display:flex;
+    }
+    .row_outer{
+        width:98%;
+        height: 100%;
+        margin:auto;
+        padding: 1% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+    }
+    .row_center{
+        margin:auto;
+    }
+    .row_inner{
+        background-color: white;
+        width:98%;
+        margin:auto;
+        padding: 2% 2% 1.5% 2%;
+        border-radius: 7px;
+        height:85%;
+        box-shadow: black;
+        font-family: 'helvetica';
+
+    }
+    .row_table{
+        height:480px;
+        overflow-y: hidden;
+        margin-bottom:1%;
+        height:95%;
+    }
+    
+    h1{
+        color: black;
+        font-weight:bold;
+        text-shadow: 1px 1px  black;
+    }
+    
+    h5{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:rgba(0, 0, 0, 0.721);
+        padding-bottom: 3%;
+    }
+
+    .form-control{
+        border-color: rgba(0, 0, 0, 0.523);
+    }
+    .buttondiv{
+        margin-top: 2%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .form-control{
+        margin-bottom: 1%;
+    }
+
+    .btn3:hover, .btn3a:hover, .btnH:hover, .btntoggle:hover{
+        border-color: black;  
+        color: black;  
+        background-color:white;
+    }
+
+    a{
+        color:white;
+        text-decoration:none;
+        font-weight: bold;
+    }
+    a:hover{
+        color: black;
+        font-weight: bold;
+    }
+
+    .b, li{
+        color: black;
+        text-decoration:none;
+        padding:6px;
+
+    }
+    .b:hover, .bselected:hover{
+        color:white;
+    }
+    
+    li:hover{
+        background-color: black;
+        color:white;
+    }
+    .bselected{
+        color: rgba(0, 0, 0, 0.484);
+        text-decoration:none;
+        padding: 6px;
+
+    }
+
+    .btntoggle{
+        padding-top:5%;
+        padding-bottom:5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: black;
+        color:white;
+        border-color: black;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        margin-top: 3%;
+        width:90%;
+
+        
+    }
+
+
+    .icon{
+        width:80px;
+        height: auto;
+        float: right;
+    }
+
+    .icon2{
+        width:430px;
+        height: auto;
+        float: right;
+        text-align: center;
+    }
+    .dropdown-menu
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .menu2
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .time{
+        background-color:  rgb(255, 247, 240);
+        color:#a54602e0;
+        border: 2px solid #a54602;
+    }
+    .guardian{
+        background-color: rgba(255, 240, 240, 0.842);
+        color:#da291ce5;
+        border: 2px solid #DA291C;
+    }
+    
+    .gradeschool{
+        background-color:#00ba0c1b;
+        border: 2px solid #00ba0c;
+    }
+    
+    .jhs1{
+        background-color:#c9a8011c;
+        border: 2px solid #c9a701;
+    }
+    
+    .shs1{
+        background-color:#9202a50e;
+        border: 2px solid #9202a5;
+    }
+    
+    .college1{
+        background-color:#e8299215;
+        border: 2px solid #e82992;
+    }
+    
+    .gradeschool, .jhs1, .shs1, .college1{
+    padding: 20px 15px 40px 15px;
+    border-radius: 5px;
+    
+}
+
+    
+    
+
+    .btngenreportgrade{
+        padding-top:6%;
+        padding-bottom:6%;
+        padding-left: 8%;
+        padding-right: 8%;
+        background-color: #02a50a;
+        color:white;
+        border-color: #02a50a;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        margin-top: 30%;
+        width:100%;  
+    }
+    .btngenreportgrade:hover{
+        color: #02a50a;
+        background-color:white;
+        border-color: #02a50a;
+    }
+    .grade1{
+        color: #02a50a;
+
+    }
+
+    .btngenreportjhs{
+        padding-top:6%;
+        padding-bottom:6%;
+        padding-left: 8%;
+        padding-right: 8%;
+        background-color: #b99b04;
+        color:white;
+        border-color:#b99b04;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        margin-top: 30%;
+        width:100%;  
+    }
+    .btngenreportjhs:hover{
+        color: #a58a02;
+        background-color:white;
+        border-color: #a58a02;
+    }
+    .jhs1{
+        color: #a58a02;
+    }
+    .btngenreportshs{
+        padding-top:6%;
+        padding-bottom:6%;
+        padding-left: 8%;
+        padding-right: 8%;
+        background-color: #9202a5;
+        color:white;
+        border-color:#9202a5;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        margin-top: 30%;
+        width:100%; 
+    }
+    .btngenreportshs:hover{
+        color: #9202a5;
+        background-color:white;
+        border-color: #9202a5;
+    }
+    .shs1{
+        color: #9202a5;
+    }
+
+    .btngenreportcol{
+        padding-top:3%;
+        padding-bottom:3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color: #e82992;
+        color:white;
+        border-color:#e82992;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        margin-top: 11%;
+        width:90%;  
+    }
+    .btngenreportcol:hover{
+        color: #e82992;
+        background-color:white;
+        border-color: #e82992;
+    }
+    .col{
+        color: #e82992;
+    }
+
+    .forms_container{
+        padding:2%;
+    }
+.c {
+    color:white;
+}

@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .cont{
+        background-image: linear-gradient(to right,#0a64cb59,#a502a059);
+        width:100%;
+        height:100%;
+        align-items: center;
+        padding-top:35px;
+        padding-bottom:35px;
+        display:flex;
+    }
+    .row_outer{
+        background-color: white;
+        width:94%;
+        height: 100%;
+        margin:auto;
+        padding: 1.5% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+        box-shadow: 1px 2px 3px 2px#dcdcdca3;
+    }
+    .row_inner{
+        background-color: white;
+        width:98%;
+        margin:auto;
+        padding: 1.5% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+    font-family: 'helvetica';
+
+    }
+
+    
+    h1{
+        color:#004ea8;
+        font-weight:bold;
+    }
+    
+    h5{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:rgba(0, 0, 0, 0.721);
+        padding-bottom: 3%;
+    }
+
+    .form-label{
+        margin-top: 5%;
+    }
+   
+    .department_textbox, .status_textbox{
+        height:38px;
+        border-radius: 6px;
+    }
+    .buttondiv{
+        margin-top: 5%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .buttondiv1{
+        margin-top: 2%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .btn1{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        border-color:#004ea8;
+        background-color: white;
+        color:#004ea8;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btn2, .btnA{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:#004ea8;
+        background-color: white;
+        border-color:#004ea8;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btn2a{
+        padding-top:4%;
+        padding-bottom:4%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:#004ea8;
+        background-color: white;
+        border-color:#004ea8;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btn1:hover, .btn2:hover, .bt2a:hover{
+        border-color:#004ea8;
+        color: white;
+        background-color:#004ea8;
+    }
+
+    .icon{
+        width:90px;
+        height: auto;
+        float: right;
+    }
+    
+    .a{
+        color:#004ea8;
+        text-decoration:none;
+        
+    }
+    .a:hover{
+        
+        color:white;
+    }
+
+    .btnA{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:white;
+        background-color:#004ea8;
+        border-color:#004ea8;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btnA:hover{
+        background-color:white;
+        border-color:#004ea8;
+    }
+    .btnAh{
+        color:white;
+        text-decoration:none;
+        
+    }
+    .btnAh:hover{
+        
+        color:#004ea8;
+    }
+
+
+    .btnB{
+        padding-top:3%;
+        padding-bottom:3%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:white;
+        background-color:#a54602;
+        border-color:#a54602;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btnB:hover{
+        background-color:white;
+        border-color:#a54602;
+    }
+    .btnBh{
+        color:white;
+        text-decoration:none;
+        
+    }
+    .btnBh:hover{
+        
+        color:#a54602;
+    }
+    .btnC{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:white;
+        background-color:#DA291C;
+        border-color:#DA291C;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btnC:hover{
+        background-color:white;
+        border-color:#DA291C;
+    }
+    .btnCh{
+        color:white;
+        text-decoration:none;
+        
+    }
+    .btnCh:hover{
+        
+        color:#DA291C;
+    }
+    

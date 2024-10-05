@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .cont{
+        background-color:  #ffecd8;
+        width:100%;
+        height:100vh;
+        align-items: center;
+        padding-top:35px;
+        padding-bottom:35px;
+        display:flex;
+    }
+    .row_outer{
+        background-color: white;
+        width:94%;
+        height: 120%;
+        margin:auto;
+        padding: 1.5% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+        box-shadow: 1px 2px 3px 2px#dcdcdca3;
+    }
+    .row_outer2{
+        background-color: white;
+        width:94%;
+        height: 90%;
+        margin:auto;
+        padding: 1.5% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+        box-shadow: 1px 2px 3px 2px#dcdcdca3;
+    }
+    .row_inner{
+        background-color: white;
+        width:98%;
+        margin:auto;
+        padding: 1.5% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+        font-family: 'helvetica';
+
+    }
+    
+    h1{
+        color:#a54602;
+        font-weight:bold;
+    }
+    
+    h5{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:rgba(0, 0, 0, 0.721);
+        padding-bottom: 3%;
+    }
+
+    .form-label{
+        margin-top: 5%;
+    }
+   
+    .department_textbox, .status_textbox{
+        height:38px;
+        border-radius: 6px;
+    }
+    .buttondiv{
+        margin-top: 5%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .btn1{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        border-color:#a54602;
+        background-color: white;
+        color:#a54602;
+        
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+  
+    }
+    .btn2{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:#a54602;
+        background-color: white;
+        border-color:#a54602;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btn1:hover, .btn2:hover{
+        border-color:#a54602;
+        color: white;
+        background-color:#a54602;
+    }
+
+    .icon{
+        max-width:80px;
+        height: auto;
+        float: right;
+    }
+    
+    
+   .a{
+        color:#a54602;    
+        text-decoration:none;      
+    } 
+  
+    .a:hover{      
+        color:white;
+    }
+
+
+    .clockdate-wrapper{
+        color:#a54602;  
+        background-color: #a54602;
+    }
+    
+    

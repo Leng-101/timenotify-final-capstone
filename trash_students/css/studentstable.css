@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .cont{
+        background-color: #00000012;
+        width:100%;
+        height:100vh;
+        align-items: center;
+        padding-top:25px;
+        padding-bottom:20px;
+        display:flex;
+    }
+    .row_outer{
+        width:98%;
+        height: 100%;
+        margin:auto;
+        padding: 1% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+    }
+    .row_center{
+        margin:auto;
+    }
+    .row_inner{
+        background-color: white;
+        width:100%;
+        margin:auto;
+        padding: 2% 2% 1.5% 2%;
+        border-radius: 7px;
+        height:85%;
+        box-shadow: 3px 5px 5px #0303036c;
+        font-family: 'helvetica';
+
+    }
+    .row_table{
+        height:480px;
+        overflow-y: hidden;
+        margin-bottom:1%;
+        height:95%;
+    }
+    
+    h1{
+        color:#000000;
+        font-weight:bold;
+        text-shadow: 1px 1px #0000006d;
+    }
+    
+    h5{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:rgba(0, 0, 0, 0.721);
+        padding-bottom: 3%;
+    }
+    h4{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:#000000;
+        padding-bottom: 3%;
+    }
+
+    .form-control{
+        border-color: rgba(0, 0, 0, 0.523);
+    }
+   
+    .department_textbox, .status_textbox{
+        height:38px;
+        border-radius: 6px;
+    }
+    .buttondiv{
+        margin-top: 2%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .btn3{
+        padding-top:2.5%;
+        padding-bottom:2.5%;
+        padding-left: 20%;
+        padding-right: 20%;
+        background-color:#000000;
+        color:white;
+        border-color:#000000;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        
+    }
+    
+    .btn3a{
+        padding-top:6%;
+        padding-bottom:6%;
+        padding-left: 20%;
+        padding-right: 20%;
+        background-color:#000000;
+        color:white;
+        border-color:#000000;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        
+    }
+    .btn4{
+        padding-top:2.5%;
+        padding-bottom:2.5%;
+        padding-left: 20%;
+        padding-right: 20%;
+        background-color:white;
+        color:#000000;
+        border-color:#000000;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        
+    }
+    
+    .btn4:hover{
+        border-color:#dcdcdca3;
+        color:black;
+        background-color:#dcdcdca3;
+    }
+
+    .form-control{
+        margin-bottom: 1%;
+    }
+
+    a{
+        color:white;
+        text-decoration:none;
+        font-weight: bold;
+    }
+    a:hover{
+        color:#000000;
+        font-weight: bold;
+    }
+
+    .b, li{
+        color:#000000cb;
+        text-decoration:none;
+        padding: 6px;
+    }
+    .b:hover{
+        color:white;
+    }
+    
+    li:hover{
+        background-color:#000000cb;
+        color:white;
+    }
+
+    .btntoggle{
+        padding-top:5%;
+        padding-bottom:5%;
+        padding-left: 25%;
+        padding-right: 25%;
+        background-color:#000000cb;
+        color:white;
+        border-color:#000000cb;
+        font-weight: bold;
+        border-radius:5px;
+        margin-bottom: 1%;
+        margin-top: 3%;
+        width:90%;
+
+        
+    }
+
+    .btnn{
+        text-align: right;
+    }
+
+    .icon{
+        width:90px;
+        height: auto;
+        float: right;
+    }
+
+    .icon2{
+        width:430px;
+        height: auto;
+        float: right;
+        text-align: center;
+    }
+    
+.table_button{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:14px;
+    background-color:#000000cb;
+    border: 2px solid#000000cb;
+    border-radius:5px;
+    width:120px;
+    height:40px;
+    color:white;
+    font-weight: bold;
+}
+.table_button:hover{
+    background-color:white;
+    border:2px solid #000000;
+    color:#000000cb;
+}
+
+.buttons{
+    width:10%;
+}
+.col{
+    text-align: center;
+}
+.heading{
+    background-color: #000000; 
+    color:white;
+    margin: auto;
+}
+img {
+    width: 10%;
+    height: 20%;
+}

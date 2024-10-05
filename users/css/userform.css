@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .cont{
+        background-color: #f0f0f0e9;
+        width:100%;
+        height:100%;
+        align-items: center;
+        padding-top:35px;
+        padding-bottom:35px;
+        display:flex;
+    }
+    .row_outer{
+        background-color: white;
+        width:94%;
+        height: 100%;
+        margin:auto;
+        padding: 1.5% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+        box-shadow: 1px 2px 3px 2px#dcdcdca3;
+    }
+    .row_inner{
+        background-color: white;
+        width:98%;
+        margin:auto;
+        padding: 2% 2% 1.5% 2%;
+        border-radius: 7px;
+        display:flex;
+        font-family: 'helvetica';
+
+    }
+
+    
+    h1{
+        color:black;
+        font-weight:bold;
+    }
+    
+    h5{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:rgba(0, 0, 0, 0.721);
+        padding-bottom: 3%;
+    }
+
+    .form-label{
+        margin-top: 5%;
+    }
+   
+    .department_textbox, .status_textbox{
+        height:38px;
+        border-radius: 6px;
+    }
+    .buttondiv{
+        margin-top: 5%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .buttondiv1{
+        margin-top: 2%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .btn1{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        border-color:black;
+        background-color: white;
+        color:black;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btn2, .btnA{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:black;
+        background-color: white;
+        border-color:black;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btn2a{
+        padding-top:4%;
+        padding-bottom:4%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:black;
+        background-color: white;
+        border-color:black;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btn1:hover, .btn2:hover, .bt2a:hover{
+        border-color:black;
+        color: white;
+        background-color:black;
+    }
+
+    .icon{
+        max-width:80px;
+
+        height: auto;
+        float: right;
+    }
+    
+    .a{
+        color:black;
+        text-decoration:none;
+        
+    }
+    .a:hover{
+        
+        color:white;
+    }
+
+    .btnA{
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:white;
+        background-color:black;
+        border-color:black;
+        font-weight: bold;
+        border-radius:5px;
+        margin-top:3%;
+        margin-bottom:4%;
+    }
+    .btnA:hover{
+        background-color:white;
+        border-color:black;
+    }
+    .btnAh{
+        color:white;
+        text-decoration:none;
+        
+    }
+    .btnAh:hover{
+        
+        color:black;
+    }
